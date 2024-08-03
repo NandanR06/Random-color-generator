@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    transition-duration:1s ;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    flex-wrap: wrap;
+}
+#container{
+    background-color: white;
+    height:25vh;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#btn{
+    width: 350px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#text{
+    
+    margin-top: 40px;
+    font-size: 30px;
+    padding-left: 160px;
+}
